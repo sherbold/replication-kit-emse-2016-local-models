@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="experimentconfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="experimentconfig experimentconfig.xsd">
+<loader name="NasaARFFFolderLoader" datalocation="exp-MDP/data" relative="false"/>
+<versionfilter name="MinClassNumberFilter" param="5" />
+<setwisepreprocessor name="Normalization" param=""/>
+<pointwiseselector name="TurhanFilter" param="10" />
+<postprocessor name="Undersampling" param="" />
+<trainer name="WekaTraining" param="SMORBF weka.classifiers.functions.SMO -K weka.classifiers.functions.supportVector.RBFKernel" />
+<resultspath path="exp-MDP/results"/>
+<eval name="NormalWekaEvaluation" param="" />
+</config>

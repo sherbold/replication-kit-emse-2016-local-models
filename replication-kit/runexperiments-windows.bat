@@ -1,0 +1,1 @@
+java -Xmx8192m -jar crosspare.jar exp-JAVAPROCESS/config exp-JAVASTATIC/config exp-MDP/config

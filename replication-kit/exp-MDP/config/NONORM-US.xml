@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="experimentconfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="experimentconfig experimentconfig.xsd">
+<loader name="NasaARFFFolderLoader" datalocation="exp-MDP/data" relative="false"/>
+<versionfilter name="MinClassNumberFilter" param="5" />
+<postprocessor name="Undersampling" param="" />
+<trainer name="WekaLocalEMTraining" param="SMORBFLocalEM weka.classifiers.functions.SMO -K weka.classifiers.functions.supportVector.RBFKernel" />
+<trainer name="WekaLocalFQTraining" param="SMORBFLocalFQ weka.classifiers.functions.SMO -K weka.classifiers.functions.supportVector.RBFKernel" />
+<resultspath path="exp-MDP/results"/>
+<eval name="NormalWekaEvaluation" param="" />
+</config>
