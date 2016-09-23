@@ -1,6 +1,6 @@
 Introduction
 ============
-Within this archive you find the replication package for the paper "Global vs. Local Models for Cross-project Defect Prediction - A replication study" by Steffen Herbold, Alexander Trautsch, and Jens Grabowski currently under review at the Empirical Software Engineering Journal, Springer. The aim of this replication package is to allow other researchers to replicate our results with minimal effort. 
+Within this archive you find the replication package for the paper "Global vs. Local Models for Cross-project Defect Prediction - A replication study" by Steffen Herbold, Alexander Trautsch, and Jens Grabowski accepted for publication by the Empirical Software Engineering Journal, Springer. The aim of this replication package is to allow other researchers to replicate our results with minimal effort. 
 
 Requirements
 ============
